@@ -364,6 +364,7 @@ textarea {
   display: block;
   -o-object-fit: cover;
   object-fit: cover;
+  max-height: 400px;
 }
 .projects__row-content {
   padding: 2rem 0;
@@ -892,7 +893,7 @@ textarea {
 }
 
 .margin0{
-    margin: 0px;
+    margin: 0px!important;
     /* padding: 10px; */
 }
 
@@ -910,4 +911,20 @@ textarea {
 
 .m-2{
     margin-right: 15px;
+}
+
+.m-b-5{
+  margin-bottom: 5px;
+}
+
+.m-b-10{
+  margin-bottom: 10px;
+}
+
+.bg-1{
+  background-color: #fafafa;
+}
+
+.bg-2{
+  background-color: #ffffff;
 }
